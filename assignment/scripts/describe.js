@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create/declare a sting variable call name and assign its value to the name "Dane".
-// Then we create a conditions, where if the variable Name is "true/exact match only" to the name "Mary".
-// Then we create a console.log that will say 'Hi, Mary!'. But if the variable name does not match the name 'Mary',
-// then we create a else condition where we console.log it with 'How do you do?'. 
+// We declare a string variable 'name' and assign it with a value of the name 'Dane'.
+// We check the conditions, if the variable name is "true/exact match only" to the name 'Mary'.
+// The name Dane is not the same as Mary, so it is false. Which mean that we console.log 'How do you do?'.
+// If the name Dane and Mary do match and it is true, then we console.log 'Hi, Mary!' instead. 
 
 //CODE
 /*
@@ -45,11 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a variable 'secret' with no set vaule assign. We also create a variable 'code' with a integer vaule of '123'. 
-// We write a condition where if the value of 'code' is "true/exact match only" to the value of '123'. 
-// We then re-set the value of 'secret' to a string variable 'super' and re-set the declare 'code' to the vaule of 'code * 2', 
-// which means that the old value of code is now 123 * 2 = to "246".
-// We then create another condition if 'code' is greater then to 250
+// We declare a variable 'secret' with no set vaule assign. 
+// We also decalre variable 'code' with a integer vaule of '123'. 
+// We will have to check the condition where if the value of code is "true/exact match only" to the value of '123'.
+// Code 123 is equal to 123. Which is true, so console.log (secret) which then will display 'super' because we now set secret with a new value of 'super'. 
+// We have also set a new value to variable code to 'code * 2'. Which mean code is now 246.
+// We looked at another condition where if code is greater then 250. Which code 246 is not greater than 250. 
+// We console.log (secret) will show 'duper' instead because we set the value of secret to 'duper' if the condition was met. 
 
 //CODE
 /*
@@ -71,10 +73,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare variable 'isStudent' with value of true. 
+// We declare variable 'age' with a number value of 34.
+// We declare variable 'zip' with a number value 55407. 
+// We checked condition if 'isStudent' is equal to the value of true and also if the value of 'zip' is greater than 80000.
+// Value of 'isStudent' is true, however  'zip' value of 55407 is not greater then 80000. We console.log it with `You're a student on the West Coast!`.
+// We checked condition else if, if isStudent is equal to false or age value is less than 30. 
+// isStudent is true which is not equal to false and also age value of 34 is not less than 30. We console.log it with 'What are your hobbies?'.
+// We checked another else if condition, where if isStudent is equal to true. Which it is true, so we console.log it with 'Welcome to Prime!'. 
+// Last but not least, if all condtion we checked eariler are not met, then that means all condtion are false/wrong so we console.log it with 'How about the weather?'. 
+
 
 //CODE
 /*
@@ -135,10 +143,19 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIXED - colorOne should be set to red and colorTwo should be set to blue. 
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+
 if (mix === true) {
   colorOne = 'purple';
 }
-*/
+
+//FIXED - We should also add colorTwo = 'purple' also. 
+if (mix === true) {
+  colorOne = 'purple';
+  colorTwo = 'purple';
+}
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,7 +168,7 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-*/
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
