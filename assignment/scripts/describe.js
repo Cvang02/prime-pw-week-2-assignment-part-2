@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create/declare a sting variable call name and assign its value to the name "Dane".
+// Then we create a conditions, where if the variable Name is "true/exact match only" to the name "Mary".
+// Then we create a console.log that will say 'Hi, Mary!'. But if the variable name does not match the name 'Mary',
+// then we create a else condition where we console.log it with 'How do you do?'. 
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable 'secret' with no set vaule assign. We also create a variable 'code' with a integer vaule of '123'. 
+// We write a condition where if the value of 'code' is "true/exact match only" to the value of '123'. 
+// We then re-set the value of 'secret' to a string variable 'super' and re-set the declare 'code' to the vaule of 'code * 2', 
+// which means that the old value of code is now 123 * 2 = to "246".
+// We then create another condition if 'code' is greater then to 250
 
 //CODE
 /*
