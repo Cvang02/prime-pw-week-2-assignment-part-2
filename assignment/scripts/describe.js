@@ -29,7 +29,7 @@ if (number >= 2) {
 // We declare a string variable 'name' and assign it with a value of the name 'Dane'.
 // We check the conditions, if the variable name is "true/exact match only" to the name 'Mary'.
 // The name Dane is not the same as Mary, so it is false. Which mean that we console.log 'How do you do?'.
-// If the name Dane and Mary do match and it is true, then we console.log 'Hi, Mary!' instead. 
+// If the name Dane and Mary do match and it is true, then we console.log 'Hi, Mary!'. 
 
 //CODE
 /*
@@ -46,7 +46,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable 'secret' with no set vaule assign. 
-// We also decalre variable 'code' with a integer vaule of '123'. 
+// We also decalre variable 'code' with a integer vaule of 123. 
 // We will have to check the condition where if the value of code is "true/exact match only" to the value of '123'.
 // Code 123 is equal to 123. Which is true, so console.log (secret) which then will display 'super' because we now set secret with a new value of 'super'. 
 // We have also set a new value to variable code to 'code * 2'. Which mean code is now 246.
@@ -73,7 +73,7 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We declare variable 'isStudent' with value of true. 
+// We declare variable 'isStudent' with boolean value of true. 
 // We declare variable 'age' with a number value of 34.
 // We declare variable 'zip' with a number value 55407. 
 // We checked condition if 'isStudent' is equal to the value of true and also if the value of 'zip' is greater than 80000.
@@ -165,7 +165,16 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIXED - We will have to re-write the time variable because it does not say make a constant time variable. 
+let temp = 40;
+let time = 4;
+
 if (temp > 39 || time >= 4) {
+  console.log('throw away the food!');
+}
+
+// FIXED - According to the sentences above, it states the word "AND" so we should be using && instead of || because it repreent "OR".
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 
@@ -178,10 +187,20 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIXED - We will have to re-write the minAge variable because it does not say make a constant variable.
+let age = 21;
+let minAge = 21;
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
-*/
 
+// FIXED - We will need to re-write the whole if condtions because we are checking if age is greater than or equal to minAge instead of the opposite.
+// We will also need to switch the console.log for the condition. 
+  if(age >= minAge) {
+    console.log('enter');
+  } else {
+    console.log('no entry');
+  }
